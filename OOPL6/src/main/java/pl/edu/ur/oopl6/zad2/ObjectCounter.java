@@ -17,3 +17,8 @@ public class ObjectCounter {
         Punkt.PokazOstatniObiekt();
     }
 }
+  /**
+   * r.nextInt(n)- podaje nam losowo liczby z przedziału od 0 do n-1
+     *Program wyświetla 10 obiektów tej klasy. Random jest to generator pseudolosowy  która wyrzuca nam losowo typy liczb z podanego rzez nas zakresu.
+     losuje wspólrzedne i doje do klas obiektow
+     */

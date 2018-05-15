@@ -18,21 +18,3 @@ public class Punkt {
         counter++;
         last_point = this;
     }
-
-    public static void PokazOstatniObiekt() {
-        System.out.println("Klasa Punkt o współrzędnych (x = " + last_point.x
-                + " y = " + last_point.y + ""
-                + " z = " + last_point.z + "). Istnieje już"
-                + " " + last_point.counter + " obiekt tej klasy.");
-    }
-    
-    @Override
-    public String toString(){
-        String s = "Klasa Punkt o współrzędnych (x = " + last_point.x
-                + " y = " + last_point.y + ""
-                + " z = " + last_point.z + "). Istnieje już"
-                + " " + last_point.counter + " obiekt tej klasy.";
-        return s;
-    }
-
-}
